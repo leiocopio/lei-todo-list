@@ -11,12 +11,17 @@
 </head>
 
 <body>
-    <h1>To-Do List</h1>
-    <input id="taskInput" type="text" placeholder="Enter task">
-    <button id="addButton">Add Task</button>
-    <div id="taskList"></div>
+    <div class="wrapper">
+        <h1>To-Do List</h1>
+        <div class="input">
+            <input id="taskInput" type="text" maxlength="50" placeholder="Enter task">
+            <p id="char">50</p>
+            <button id="addButton">Add Task</button>
+        </div>
+        <div id="taskList"></div>
 
-    <script src="./js/script.js"></script>
+        <script src="./js/script.js"></script>
+    </div>
 </body>
 
 </html>
